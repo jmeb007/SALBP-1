@@ -1,5 +1,7 @@
-# SALBP-1
-This is an heuristic method to find a SALBP-1 solution with a modification to add handicapped workers using dictionaries to quickly compute a solution. 
+# SALBP-1 
+Simple assembly line balancing problem
+This is an heuristic method to find a SALBP-1 solution with a modification to add handicapped workers, using dictionaries and nested dictionaries to represent their compatibility to the tasks needed, that allows for a fast way to compute a solution. 
+
 A bit of background:
 The idea behind the dictionaries as a entry dara type, was that by using the hashing functions and list comprenhension in python is possible to find good and quick results for this problem. 
 As this is allocation problem in industrial engineering has a complexity of n^2 (meaning the possible space for solutions is nearly limitless) this approach could facilitate nearly optimal solutions.
